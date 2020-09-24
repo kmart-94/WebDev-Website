@@ -1,0 +1,158 @@
+body
+{
+  background-color: #e2fff4;
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1
+{
+  font-size: 5rem;
+  margin: 16px;
+  font-weight: normal;
+  color: #008d57;
+  /*font-family: Roundhand; */
+}
+
+h2
+{
+  font-size: 2rem;
+  color: #008d57;
+}
+
+h3
+{
+  font-weight: normal;
+  color: #00c077;
+}
+
+hr
+{
+  width: 40%;
+  margin: 0 auto 0 auto;
+}
+
+p
+{
+  line-height: 1.5;
+}
+
+embed
+{
+  width: 100%;
+}
+
+a
+{
+  text-decoration: none;
+  color: #008d57;
+}
+
+a:hover
+{
+  text-decoration: underline;
+  color: #00af6d;
+}
+
+.TopContainer
+{
+  /*background-color:  #68B396; */
+  margin-top: 10px;
+}
+
+.TopCloud
+{
+  position: relative;
+  left: 60%;
+  display: block;
+}
+
+.BottomCloud
+{
+  position: relative;
+  right: 60%;
+  margin-left: auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.ProfileContainer
+{
+  margin: 20px auto 20px auto;
+  width: 30%;
+}
+
+.ProfilePicture
+{
+  width: 200px;
+}
+
+.skillRow
+{
+  margin: 20px auto 20px auto;
+  width: 40%;
+}
+
+.SkillIcons
+{
+  width: 15%;
+  margin-right: 20px;
+}
+
+.SkillText
+{
+  width: 80%;
+  text-align: left;
+  display: inline-block;
+}
+
+.BottomContainer
+{
+  background-color: #c0ffe7;
+}
+
+.ContactMe
+{
+  width: 30%;
+  margin: 0 auto 0 auto;
+}
+
+.CopyRight
+{
+  font-size: .75em;
+}
+
+.ContactButton {
+   background: #005A38;
+   background-image: -webkit-linear-gradient(top, #005A38, #002718);
+   background-image: -moz-linear-gradient(top, #005A38, #002718);
+   background-image: -ms-linear-gradient(top, #005A38, #002718);
+   background-image: -o-linear-gradient(top, #005A38, #002718);
+   background-image: linear-gradient(to bottom, #005A38, #002718);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 40px;
+   padding: 40px;
+   border: solid #003823 5px;
+   text-decoration: none;
+   text-align: center;
+}
+
+.ContactButton:hover {
+   border: solid #005A38 5px;
+   background: #007C4D;
+   background-image: -webkit-linear-gradient(top, #007C4D, #00492D);
+   background-image: -moz-linear-gradient(top, #007C4D, #00492D);
+   background-image: -ms-linear-gradient(top, #007C4D, #00492D);
+   background-image: -o-linear-gradient(top, #007C4D, #00492D);
+   background-image: linear-gradient(to bottom, #007C4D, #00492D);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
