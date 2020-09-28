@@ -30,8 +30,10 @@ h3
 
 hr
 {
-  width: 40%;
+  width: 80px;
   margin: 0 auto 0 auto;
+  border: none;
+  border-bottom: 6px dotted gray;
 }
 
 p
@@ -58,7 +60,6 @@ a:hover
 
 .TopContainer
 {
-  /*background-color:  #68B396; */
   margin-top: 10px;
 }
 
@@ -80,25 +81,31 @@ a:hover
 
 .ProfileContainer
 {
-  margin: 20px auto 20px auto;
-  width: 30%;
+  max-width: 500px;
+  margin: 50px auto 20px auto;
 }
 
 .ProfilePicture
 {
   width: 200px;
+  margin-bottom: 10px;
+}
+
+.SkillsContainer
+{
+  margin: 20px auto 20px auto;
 }
 
 .skillRow
 {
   margin: 20px auto 20px auto;
-  width: 40%;
 }
 
 .SkillIcons
 {
-  width: 15%;
+  width: 75px;
   margin-right: 20px;
+  margin-bottom: 10px;
 }
 
 .SkillText
@@ -106,22 +113,40 @@ a:hover
   width: 80%;
   text-align: left;
   display: inline-block;
+  max-width: 500px;
 }
 
 .BottomContainer
 {
+  display: inline-block;
+  width: 100%;
   background-color: #c0ffe7;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .ContactMe
 {
-  width: 30%;
-  margin: 0 auto 0 auto;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .CopyRight
 {
   font-size: .75em;
+}
+
+#bannerImageContainer
+{
+  max-height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#bannerImage
+{
+  margin-top: -15%;
 }
 
 .ContactButton {
@@ -141,6 +166,7 @@ a:hover
    border: solid #003823 5px;
    text-decoration: none;
    text-align: center;
+   margin-bottom: 60px;
 }
 
 .ContactButton:hover {

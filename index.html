@@ -7,62 +7,71 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Kristian Martinez</title>
 
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favController.ico">
+  
 </head>
 <body>
-  <!--Top Container-->
-  <div class="TopContainer">
-    <img src="images/cloud.png" class = "TopCloud" alt="A cloud">
-    <h1>I'm Kristian</h1>
-    <h3>A web developer, and game designer.</h3>
-    <img src="images/cloud.png" class = "BottomCloud" alt="A cloud">
-    <embed src="images/knightsShutterstock.svg" alt="Picture of knights">
-  </div>
+  <div class="container-md">
+    <!--Top Container-->
+    <div class="TopContainer">
+      <img src="images/cloud.png" class = "TopCloud" alt="A cloud">
+      <h1>I'm Kristian</h1>
+      <h3>A web developer, and game designer.</h3>
+      <img src="images/cloud.png" class = "BottomCloud" alt="A cloud">
+    </div>
 
-  <!--Profile Container-->
-  <div class="ProfileContainer">
-    <img src="images/Kristian_headshot-2.jpg" alt="Kristian's picture" class = "ProfilePicture">
-    <h2>Hello!</h2>
-    <p>I am a web developer, and game designer. I am constantly learning new things and improving my skill set.</p>
-  </div>
+    <!--<div id="bannerImageContainer">
+      <embed id = "bannerImage" src="images/knightsShutterstock.svg" alt="Picture of knights">
+    </div> -->
 
-  <hr>
+    <!--Profile Container-->
+    <div class="ProfileContainer">
+      <img src="images/Kristian_headshot-2.jpg" alt="Kristian's picture" class = "ProfilePicture">
+      <h2>Hello!</h2>
+      <p>I am a web developer, and game designer. I am constantly learning new things and improving my skill set.</p>
+    </div>
 
-<!--Skills Container-->
-  <div class="SkillsContainer">
-    <h2>My Skills</h2>
-    <div class="skillRow">
-      <img class="SkillIcons" src="images/Web Coding.png" alt="WebDevIocn">
-      <div class = "SkillText">
-        <h3>Web Development</h3>
-        <p>I'm a full stack-web developer. I'm partial to MERN stack although</p>
+    <hr>
+
+  <!--Skills Container-->
+    <div class="SkillsContainer">
+      <h2>My Skills</h2>
+      <div class="skillRow">
+        <img class="SkillIcons" src="images/Web Coding.png" alt="WebDevIocn">
+        <div class = "SkillText">
+          <h3>Web Development</h3>
+          <p>I'm a full stack-web developer. I'm partial to MERN stack and have created apps with firebase.</p>
+        </div>
+      </div>
+      <div class="skillRow">
+        <img class="SkillIcons" src="images/Unity.png" alt="Unity3DIcon">
+        <div class = "SkillText">
+          <h3>Unity Game Development</h3>
+          <p>I've spent the past three years learning as much as I can about Unity and at this point I can safely say, I'm an expert.</p>
+        </div>
       </div>
     </div>
-    <div class="skillRow">
-      <img class="SkillIcons" src="images/Unity.png" alt="Unity3DIcon">
-      <div class = "SkillText">
-        <h3>Unity Game Development</h3>
-        <p>I've spent the past three years learning as much as I can about Unity and at this point I can safely say, I'm an expert.</p>
-      </div>
-    </div>
   </div>
-
   <!--Bottom Container-->
   <div class="BottomContainer">
-    <hr>
     <div class= "ContactMe">
       <h2>Get In Touch</h2>
       <h3>So you want to get to know me?</h3>
       <p>Contact me through any of the methods you see below.</p>
-      <button class="ContactButton" type="button" href="mailto:kristianrmartinez@gmail.com">CONTACT ME</button>
-      <br>
+      <a class="ContactButton" href="mailto:kristianrmartinez@gmail.com">CONTACT</a>
       <br>
       <a class="footerLink" href="https://www.linkedin.com/in/kristian-martinez-397a5799/">LinkedIn</a>
       <p class ="CopyRight">© 2020 Kristian Martinez.</p>
     </div>
   </div>
 
-
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
